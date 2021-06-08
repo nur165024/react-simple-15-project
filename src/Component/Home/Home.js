@@ -11,11 +11,20 @@ const Home = () => {
                     <hr />
                     {/* Birthday project done */}
                     <div className="col-md-4">
-                        <div class="card">
-                            <img class="card-img-top" src={birthday} alt="Card image cap" />
-                            <div class="card-body">
-                                <Link to='/birthday'><h5 class="card-title">Birthday Simple Project</h5></Link>
-                                <Link to="/birthday" class="btn btn-primary">View</Link>
+                        <div className="card">
+                            <img className="card-img-top" src={birthday} alt="" />
+                            <div className="card-body">
+                                <Link to='/birthday'><h5 className="card-title">Birthday Simple Project</h5></Link>
+                                <Link to="/birthday" className="btn btn-primary">View</Link>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-md-4">
+                        <div className="card">
+                            <img className="card-img-top" src={birthday} alt="" />
+                            <div className="card-body">
+                                <Link to='/tours'><h5 className="card-title">Tours Project</h5></Link>
+                                <Link to="/tours" className="btn btn-primary">View</Link>
                             </div>
                         </div>
                     </div>

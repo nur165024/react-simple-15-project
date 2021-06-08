@@ -12,22 +12,21 @@ import {
 function App() {
   return (
     <Router>
-    
-    <div>
-      <Navbar></Navbar>
-      <Switch>
-        <Route exact path="/">
-          <Home></Home>
-        </Route>
-        <Route path="/birthday">
-        <Birthday></Birthday>
-        </Route>
-        <Route path="/tours">
-          <Tours></Tours>
-        </Route>
-      </Switch>
-    </div>
-  </Router>
+      <div>
+        <Navbar></Navbar>
+        <Switch>
+          <Route exact path="/">
+            <Home></Home>
+          </Route>
+          <Route path="/birthday">
+            <Birthday></Birthday>
+          </Route>
+          <Route path="/tours">
+            <Tours></Tours>
+          </Route>
+        </Switch>
+      </div>
+    </Router>
   );
 }
 
