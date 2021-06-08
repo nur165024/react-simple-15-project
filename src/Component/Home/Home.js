@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import birthday from '../../images/birthday.png';
+import tours from '../../images/tours.png';
 
 const Home = () => {
     return (
@@ -21,10 +22,19 @@ const Home = () => {
                     </div>
                     <div className="col-md-4">
                         <div className="card">
-                            <img className="card-img-top" src={birthday} alt="" />
+                            <img className="card-img-top" src={tours} alt="" />
                             <div className="card-body">
                                 <Link to='/tours'><h5 className="card-title">Tours Project</h5></Link>
                                 <Link to="/tours" className="btn btn-primary">View</Link>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-md-4">
+                        <div className="card">
+                            <img className="card-img-top" src={tours} alt="" />
+                            <div className="card-body">
+                                <Link to='/review'><h5 className="card-title">User Review</h5></Link>
+                                <Link to="/review" className="btn btn-primary">View</Link>
                             </div>
                         </div>
                     </div>

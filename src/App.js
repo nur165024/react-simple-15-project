@@ -8,6 +8,7 @@ import {
   Switch,
   Route
 } from "react-router-dom";
+import Review from './Component/Review/Review';
 
 function App() {
   return (
@@ -23,6 +24,9 @@ function App() {
           </Route>
           <Route path="/tours">
             <Tours></Tours>
+          </Route>
+          <Route path="/review">
+            <Review></Review>
           </Route>
         </Switch>
       </div>

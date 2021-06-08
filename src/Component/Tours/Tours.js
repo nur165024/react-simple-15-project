@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import birthday from '../../images/birthday.png';
 import Tour from './Tour';
 
@@ -29,6 +30,7 @@ const Tours = () => {
                     <div className="col-md-12">
                         <h1>Ours Tours List</h1>
                         <h5>Total Tours : {tours.length}</h5>
+                        <Link className="btn btn-success mb-3" to="/">Back</Link>
                     </div>
                     <hr />
                     {
