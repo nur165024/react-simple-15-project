@@ -28,6 +28,9 @@ function App() {
           <Route path="/review">
             <Review></Review>
           </Route>
+          <Route path="/review">
+            <Review></Review>
+          </Route>
         </Switch>
       </div>
     </Router>
