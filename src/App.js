@@ -9,6 +9,7 @@ import {
   Route
 } from "react-router-dom";
 import Review from './Component/Review/Review';
+import QuestionsAndAnswers from './Component/QuestionsAndAnswers/QuestionsAndAnswers';
 
 function App() {
   return (
@@ -30,6 +31,9 @@ function App() {
           </Route>
           <Route path="/review">
             <Review></Review>
+          </Route>
+          <Route path="/questions/answers">
+            <QuestionsAndAnswers></QuestionsAndAnswers>
           </Route>
         </Switch>
       </div>
