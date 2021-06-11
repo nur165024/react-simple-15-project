@@ -12,6 +12,7 @@ import {
   Switch,
   Route
 } from "react-router-dom";
+import LoremText from './Component/LoremText/LoremText';
 
 function App() {
   return (
@@ -42,6 +43,9 @@ function App() {
           </Route>
           <Route path="/expreience">
             <Expreience></Expreience>
+          </Route>
+          <Route path="/lorem/text/count">
+            <LoremText></LoremText>
           </Route>
         </Switch>
       </div>
