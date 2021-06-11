@@ -11,6 +11,7 @@ import {
 import Review from './Component/Review/Review';
 import QuestionsAndAnswers from './Component/QuestionsAndAnswers/QuestionsAndAnswers';
 import OurMenu from './Component/OurMenu/OurMenu';
+import Expreience from './Component/Expreience/Expreience';
 
 function App() {
   return (
@@ -38,6 +39,9 @@ function App() {
           </Route>
           <Route path="/our/menu">
             <OurMenu></OurMenu>
+          </Route>
+          <Route path="/expreience">
+            <Expreience></Expreience>
           </Route>
         </Switch>
       </div>
