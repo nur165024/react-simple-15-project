@@ -3,15 +3,15 @@ import Birthday from './Component/Birthday/Birthday';
 import Home from './Component/Home/Home';
 import Navbar from './Component/Navbar/Navbar';
 import Tours from './Component/Tours/Tours';
+import Review from './Component/Review/Review';
+import QuestionsAndAnswers from './Component/QuestionsAndAnswers/QuestionsAndAnswers';
+import OurMenu from './Component/OurMenu/OurMenu';
+import Expreience from './Component/Expierence/Expierence';
 import {
   BrowserRouter as Router,
   Switch,
   Route
 } from "react-router-dom";
-import Review from './Component/Review/Review';
-import QuestionsAndAnswers from './Component/QuestionsAndAnswers/QuestionsAndAnswers';
-import OurMenu from './Component/OurMenu/OurMenu';
-import Expreience from './Component/Expreience/Expreience';
 
 function App() {
   return (
