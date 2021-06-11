@@ -8,7 +8,7 @@ const QuestionsAndAnswers = () => {
     const [questions,setQuestions] = useState(data);
 
     return (
-        <section >
+        <section>
             <div className="container">
                 <div className="row">
                     <div className="col-md-12">

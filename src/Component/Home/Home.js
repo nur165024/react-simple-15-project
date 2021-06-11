@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import birthday from '../../images/birthday.png';
 import tours from '../../images/tours.png';
+import ourMenu from '../../images/ourMenu.png';
 
 const Home = () => {
     return (
@@ -44,6 +45,15 @@ const Home = () => {
                             <div className="card-body">
                                 <Link to='/questions/answers'><h5 className="card-title">Questions ans Answers(FAQ)</h5></Link>
                                 <Link to="/questions/answers" className="btn btn-primary">View</Link>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-md-4">
+                        <div className="card">
+                            <img className="card-img-top" src={ourMenu} alt="" />
+                            <div className="card-body">
+                                <Link to='/our/menu'><h5 className="card-title">Our Menu</h5></Link>
+                                <Link to="/our/menu" className="btn btn-primary">View</Link>
                             </div>
                         </div>
                     </div>

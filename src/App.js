@@ -10,6 +10,7 @@ import {
 } from "react-router-dom";
 import Review from './Component/Review/Review';
 import QuestionsAndAnswers from './Component/QuestionsAndAnswers/QuestionsAndAnswers';
+import OurMenu from './Component/OurMenu/OurMenu';
 
 function App() {
   return (
@@ -34,6 +35,9 @@ function App() {
           </Route>
           <Route path="/questions/answers">
             <QuestionsAndAnswers></QuestionsAndAnswers>
+          </Route>
+          <Route path="/our/menu">
+            <OurMenu></OurMenu>
           </Route>
         </Switch>
       </div>
