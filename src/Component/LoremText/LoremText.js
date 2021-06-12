@@ -26,7 +26,8 @@ const LoremText = () => {
                         <h1>Lorem Text Count</h1>
                         <Link className="btn btn-success mb-3" to="/">Back</Link>
                     </div>
-                </div>
+                </div>3
+                <hr />
                 <div className="row justify-content-center">
                     <div className="col-md-8 text-center">
                         <h3>Text Count Number</h3>

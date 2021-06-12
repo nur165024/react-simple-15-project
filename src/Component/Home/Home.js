@@ -6,6 +6,7 @@ import question from '../../images/question.png';
 import ourMenu from '../../images/ourMenu.png';
 import expreience from '../../images/expreience.png';
 import lorem_text from '../../images/lorem_text.png';
+import form_submit from '../../images/form_submit.png';
 
 const Home = () => {
     return (
@@ -75,6 +76,15 @@ const Home = () => {
                             <div className="card-body">
                                 <Link to='/lorem/text/count'><h5 className="card-title mb-4">Lorem Text</h5></Link>
                                 <Link to="/lorem/text/count" className="btn btn-primary">View</Link>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-md-4 mb-4">
+                        <div className="card">
+                            <img className="card-img-top" height="220" src={form_submit} alt="" />
+                            <div className="card-body">
+                                <Link to='/form/submit'><h5 className="card-title mb-4">Form Submit</h5></Link>
+                                <Link to="/form/submit" className="btn btn-primary">View</Link>
                             </div>
                         </div>
                     </div>

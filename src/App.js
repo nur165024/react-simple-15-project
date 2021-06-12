@@ -13,6 +13,7 @@ import {
   Route
 } from "react-router-dom";
 import LoremText from './Component/LoremText/LoremText';
+import FormSubmit from './Component/FormSubmit/FormSubmit';
 
 function App() {
   return (
@@ -46,6 +47,9 @@ function App() {
           </Route>
           <Route path="/lorem/text/count">
             <LoremText></LoremText>
+          </Route>
+          <Route path="/form/submit">
+            <FormSubmit></FormSubmit>
           </Route>
         </Switch>
       </div>
