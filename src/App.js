@@ -11,6 +11,7 @@ import Expreience from './Component/Expierence/Expierence';
 import LoremText from './Component/LoremText/LoremText';
 import FormSubmit from './Component/FormSubmit/FormSubmit';
 import SideBarNav from './Component/SideBarNav/SideBarNav';
+import MenuHover from './Component/MenuHover/MenuHover';
 
 function App() {
   return (
@@ -50,6 +51,9 @@ function App() {
           </Route>
           <Route path="/sideBar/nav">
             <SideBarNav></SideBarNav>
+          </Route>
+          <Route path="/menu/hover">
+            <MenuHover></MenuHover>
           </Route>
         </Switch>
       </div>

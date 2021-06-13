@@ -8,6 +8,7 @@ import expreience from '../../images/expreience.png';
 import lorem_text from '../../images/lorem_text.png';
 import form_submit from '../../images/form_submit.png';
 import sideBar_nav from '../../images/sidebarNav.jpg';
+import menu_hover from '../../images/menu_hover.jpg';
 
 const Home = () => {
     return (
@@ -95,6 +96,15 @@ const Home = () => {
                             <div className="card-body">
                                 <Link to='/sideBar/nav'><h5 className="card-title mb-4">SideBar Nav</h5></Link>
                                 <Link to="/sideBar/nav" className="btn btn-primary">View</Link>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-md-4 mb-4">
+                        <div className="card">
+                            <img className="card-img-top" height="220" src={menu_hover} alt="" />
+                            <div className="card-body">
+                                <Link to='/menu/hover'><h5 className="card-title mb-4">Menu Hover</h5></Link>
+                                <Link to="/menu/hover" className="btn btn-primary">View</Link>
                             </div>
                         </div>
                     </div>
